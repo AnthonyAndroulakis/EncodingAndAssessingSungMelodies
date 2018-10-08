@@ -1,3 +1,8 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% THIS MATLAB PROGRAM WAS CREATED BY ANTHONY ANDROULAKIS ON AUGUST 14, 2017.
+% aandroulakis@zoho.com
+% BSD 3-Clause License
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % EncodingAndAssessingSungMelodies
 [y,Fs] = audioread(filename);
 song=y(:,1);
