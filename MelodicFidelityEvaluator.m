@@ -6,8 +6,8 @@
 % MusicFidelityEvaluator
 
 % This computer program compares two matrices, each of which have two rows.
-% The first row %displays the frequencies of notes in Hz.
-% The second row %displays the durations of the corresponding notes in seconds.
+% The first row displays the frequencies of notes in Hz.
+% The second row displays the durations of the corresponding notes in seconds.
 % The inputs are: OHz for Original melody and PHz for Patient repeat. 
 % The outputs are the time error and the note interval error.
 
