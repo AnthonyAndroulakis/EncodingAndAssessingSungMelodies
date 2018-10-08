@@ -1,3 +1,4 @@
+% EncodingAndAssessingSungMelodies
 [y,Fs] = audioread(filename);
 song=y(:,1);
 % convert amplitude to decibels
