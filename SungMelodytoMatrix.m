@@ -1,9 +1,11 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% THIS MATLAB PROGRAM WAS CREATED BY ANTHONY ANDROULAKIS ON AUGUST 14, 2017.
+% THIS MATLAB PROGRAM WAS MADE PUBLICLY AVAILABLE BY ANTHONY ANDROULAKIS ON OCTOBER 7, 2018.
 % aandroulakis@zoho.com
 % BSD 3-Clause License
+% Copyright (c) 2018, Anthony Androulakis
+% All rights reserved.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% EncodingAndAssessingSungMelodies
+% SungMelodyToMatrix
 [y,Fs] = audioread(filename);
 song=y(:,1);
 % convert amplitude to decibels
