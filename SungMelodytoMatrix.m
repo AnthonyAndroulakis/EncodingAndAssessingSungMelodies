@@ -1,9 +1,3 @@
-% ProDAS = Program for the Detection of Aphasic Singing
-% note that this program works best when the input audio files have no
-% background noise, but this program still works very well even with
-% background noise (just make sure the Aphasic voice is louder than the
-% background noise
-
 [y,Fs] = audioread(filename);
 song=y(:,1);
 % convert amplitude to decibels
