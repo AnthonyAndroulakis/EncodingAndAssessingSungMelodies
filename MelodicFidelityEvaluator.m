@@ -12,11 +12,7 @@
 % The second row displays the durations of the corresponding notes in seconds.
 % The inputs are: OHz for Original melody and PHz for Patient repeat. 
 % The outputs are the time error and the note interval error.
-
-
-
-
-    
+   
 %%disp('                Music Fidelity Evaluator')
 %%disp('--------------created by Anthony Androulakis-----------------')    
 
