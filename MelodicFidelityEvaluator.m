@@ -3,7 +3,7 @@
 % aandroulakis@zoho.com
 % Unauthorized Use of this Program is Prohibited.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% MusicFidelityEvaluator (MFE)
+% MusicFidelityEvaluator
 
 % This computer program compares two matrices, each of which have two rows.
 % The first row %displays the frequencies of notes in Hz.
