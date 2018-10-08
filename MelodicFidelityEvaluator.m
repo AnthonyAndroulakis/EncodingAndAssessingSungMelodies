@@ -47,7 +47,7 @@ end
 if size(P,2)==size(O,2)
 %%disp('-----')      
 %%disp('The patient reproduced matrix P has the same number of notes as the original matrix O.')
-%disp(['notes added (positive) or deleted (negative): ' num2str(size(P,2)-size(O,2)) ''])
+disp(['notes added (positive) or deleted (negative): ' num2str(size(P,2)-size(O,2)) ''])
 NotesAddedOrDeleted=size(P,2)-size(O,2);
 %%disp('-----')             
 %%disp('In order to evaluate the time error of the patient fairly,')
@@ -101,9 +101,9 @@ NotesAddedOrDeleted=size(P,2)-size(O,2);
 
 BR=[TTE, TJE];
 
-    %disp('The results are:')
-    %disp('Time error (sec)    Note Interval error (semitones)')
-    %disp(BR) 
+    disp('The results are:')
+    disp('Time error (sec)    Note Interval error (semitones)')
+    disp(BR) 
 end
 %----------------------------------------------------------------------------------------------------------------------%
 %-----------------------------------------------------CASE 2-----------------------------------------------------------%
@@ -112,7 +112,7 @@ end
 if size(P,2)>size(O,2)
 %%disp('-----')
 %%disp(['The patient reproduced matrix ,P, has ' num2str(size(P,2)-size(O,2)) ' more note(s) than the original matrix O.'])
-%disp(['notes added (positive) or deleted (negative): ' num2str(size(P,2)-size(O,2)) ''])
+disp(['notes added (positive) or deleted (negative): ' num2str(size(P,2)-size(O,2)) ''])
 NotesAddedOrDeleted=size(P,2)-size(O,2);
 %%disp('-----')
 %%disp('Why did the patient add the extra notes?')
@@ -244,9 +244,9 @@ NotesAddedOrDeleted=size(P,2)-size(O,2);
         %%disp('Several subsets of P give the same minimum note interval error for the patient.')
         %%disp('One of these subsets gives the smallest time error of the patient.')
     
-        %disp('The results are:')
-        %disp('Time error (sec)    Note Interval error (semitones)')
-        %disp(BR)
+        disp('The results are:')
+        disp('Time error (sec)    Note Interval error (semitones)')
+        disp(BR)
         
     end
 end  
@@ -256,7 +256,7 @@ end
 if size(P,2)<size(O,2)
 %%disp('-----')
 %%disp(['The original matrix , O, has ' num2str(size(O,2)-size(P,2)) ' more notes than the patient reproduced matrix P.'])
-%disp(['notes added (positive) or deleted (negative): ' num2str(size(P,2)-size(O,2)) ''])
+disp(['notes added (positive) or deleted (negative): ' num2str(size(P,2)-size(O,2)) ''])
 NotesAddedOrDeleted=size(P,2)-size(O,2);
 %%disp('-----')    
 %%disp('Which notes of the original melody did the patient try to reproduce?')
@@ -388,8 +388,8 @@ NotesAddedOrDeleted=size(P,2)-size(O,2);
         %%disp('Several subsets of O give the same minimum note interval error for the patient.')
         %%disp('One of these subsets gives the smallest time error of the patient.')
     
-        %disp('The results are:')
-        %disp('Time error (sec)    Note Interval error (semitones)')
-        %disp(BR)
+        disp('The results are:')
+        disp('Time error (sec)    Note Interval error (semitones)')
+        disp(BR)
     end
 end
