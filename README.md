@@ -3,4 +3,4 @@ The MATLAB codes, SungMelodytoMatrix.m and MelodicFidelityEvaluator.m provided i
 ![](https://github.com/AnthonyAndroulakis/EncodingAndAssessingSungMelodies/blob/master/EncodingAndAssessingSungMelodies.png)
 
 # Usage
-[Usage of my algorithms](https://github.com/AnthonyAndroulakis/EncodingAndAssessingSungMelodies/blob/master/Usage.pdf)
+The usage of my algorithms can be found here: https://github.com/AnthonyAndroulakis/EncodingAndAssessingSungMelodies/blob/master/Usage.pdf
